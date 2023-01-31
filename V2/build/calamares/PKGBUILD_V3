@@ -23,7 +23,7 @@ sha256sums=('SKIP')
 prepare(){
 	mkdir ${srcdir}/calamares-custom/build;
 	cd ${srcdir}/calamares-custom/
-	cp settings.conf ${srcdir}/calamares-custom/build;
+	cp ${srcdir}/calamares-custom/settings.conf ${srcdir}/calamares-custom/build;
 	}
 
 
